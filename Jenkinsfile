@@ -9,7 +9,7 @@ pipeline {
 
     stages {
          
-         stage(Install Packages') {
+         stage('Install Packages') {
             steps {
                 echo "Starting to install npm package"
                 sh 'npm install'
