@@ -1,8 +1,5 @@
 pipeline {
-    environment {
-        registry = "write docker hub regestry here}
-        regestryCredential = 'dockerhub-cred'
-    }
+    environment 
    
     agent any
 
